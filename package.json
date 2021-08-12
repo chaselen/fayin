@@ -1,0 +1,29 @@
+{
+  "name": "fayin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "dev:debug": "nodemon --inspect src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaselen/fayin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaselen/fayin/issues"
+  },
+  "homepage": "https://github.com/chaselen/fayin#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "fastify": "^3.20.1",
+    "fastify-static": "^4.2.3",
+    "point-of-view": "^4.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
